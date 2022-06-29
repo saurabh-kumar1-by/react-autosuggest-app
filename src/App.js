@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import BasicAutoSuggest from './components/basic.autosuggest';
+import ServerAutoSuggest from "./components/server.sutosuggest";
+import ByAutosuggest from "./components/by.autosuggest";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+
+        {/*<h1>Basic Auto Suggest</h1>*/}
+        {/*<BasicAutoSuggest />*/}
+
+        {/*<h1>Server Auto Suggest</h1>*/}
+        {/*<ServerAutoSuggest />*/}
+
+        <h1>BY Auto Suggest</h1>
+        <ByAutosuggest />
+
+      </div>
   );
 }
 
