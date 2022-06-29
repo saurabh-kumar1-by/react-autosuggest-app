@@ -1,5 +1,6 @@
 import Autosuggest from "react-autosuggest";
 import React from "react";
+import './autosuggest.css';
 
 class ByAutosuggest extends React.Component{
     constructor() {
